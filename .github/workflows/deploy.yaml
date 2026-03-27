@@ -37,7 +37,7 @@ jobs:
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm install -g semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog @semantic-release/github @semantic-release/git @semantic-release/exec
+          npm install semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog @semantic-release/github @semantic-release/git @semantic-release/exec
           npx semantic-release  --extends ./.releaserc.json
       # 2. 重新拉取最新的 pom.xml (刚才 Semantic Release  推上去的)
       - name: Pull updated pom.xml
