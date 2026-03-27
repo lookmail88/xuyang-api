@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/lookmail88/xuyang-api/compare/v1.0.0...v1.0.1) (2026-03-27)
+
+
+### Bug Fixes
+
+* test auto versioning leap ([85287df](https://github.com/lookmail88/xuyang-api/commit/85287dfacfac5a8e4fe380c6c1e21f91b9c4cfe8))
+
 # 1.0.0 (2026-03-27)
 
 
