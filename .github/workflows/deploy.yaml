@@ -39,7 +39,7 @@ jobs:
         run: |
           npm install -g semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog @semantic-release/github @semantic-release/git @semantic-release/exec
           npx semantic-release
-      # 2. 重新拉取最新的 pom.xml (刚才 Semantic Release 推上去的)
+      # 2. 重新拉取最新的 pom.xml (刚才 Semantic Release  推上去的)
       - name: Pull updated pom.xml
         id: project_version
         run: | 
