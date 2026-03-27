@@ -2,7 +2,7 @@ name: Build Push and Auto Release to GHCR
 
 on:
   push:
-    branches: [ "development" ]  # 监听 development 分支的推送
+    branches: [ "development","master" ]  # 监听 development 分支的推送
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
