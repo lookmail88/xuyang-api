@@ -44,8 +44,8 @@ jobs:
         id: project_version
         run: | 
           git pull origin development
-          VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
-          echo "APP_VERSION=v$VERSION" >> $GITHUB_OUTPUT
+          VERSION=v$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+          echo "APP_VERSION=$VERSION" >> $GITHUB_OUTPUT
           echo "当前项目版本号为: $VERSION"
       # 3. 使用新版本构建 Jar 包
       - name: Build with Maven
