@@ -9,6 +9,6 @@ public class WebController {
 
     @GetMapping(value="/sayhello")
     public ResponseEntity<String> sayHello(){
-        return ResponseEntity.ok("Hello,my friends");
+        return ResponseEntity.ok("Hello,Thihs is for my test");
     }
 }
