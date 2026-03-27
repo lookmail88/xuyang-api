@@ -57,7 +57,10 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       # 5. 构建并推送 Docker 镜像
-      # 使用 Git Tag 作为镜像版本
+      # create cache builder
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      # 使用 Git Tag 作为镜像版本`
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
