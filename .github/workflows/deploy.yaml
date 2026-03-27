@@ -69,10 +69,10 @@ jobs:
           push: true
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:v${{ steps.project_version_outputs.APP_VERSION  }}
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:v${{ steps.project_version.outputs.APP_VERSION  }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
       - name: Output Release Info
         run: |
-          echo "Successfully released version: ${{ steps.project_version_outputs.APP_VERSION }}"
+          echo "Successfully released version: ${{ steps.project_version.outputs.APP_VERSION }}"
