@@ -41,6 +41,7 @@ jobs:
           npx semantic-release
       # 2. 重新拉取最新的 pom.xml (刚才 Semantic Release 推上去的)
       - name: Pull updated pom.xml
+        id: project_version
         run: | 
           git pull origin development
           VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
