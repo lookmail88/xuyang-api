@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17
+FROM eclipse-temurin:25
 RUN groupadd -r spring && useradd -r -g spring spring
 USER spring:spring
 ARG JAR_FILE=target/app.jar
