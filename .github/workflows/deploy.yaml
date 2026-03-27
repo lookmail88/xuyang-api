@@ -1,4 +1,4 @@
-name: Build Push and Release to GHCR
+name: Build Push and Auto Release to GHCR
 
 on:
   push:
@@ -12,6 +12,8 @@ jobs:
     permissions:
       contents: write
       packages: write
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4 # Check out the repository
@@ -26,13 +28,19 @@ jobs:
       - name: build with maven
         run: mvn clean package -Dmaven.test.skip=true
       # 1. 自动计算并推送新 Tag (v1.0.1, v1.0.2...)
-      - name: Bump version and push tag
+      - name: Bump version (semantic)
         id: tag_version
         uses: anothrNick/github-tag-action@1.67.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          WITH_V: true
-          DEFAULT_BUMP: patch # 默认每次增加修订号
+          WITH_V: false
+          DEFAULT_BUMP: patch
+          RELEASE_BRANCHES: main
+          TAG_CONTEXT: repo
+           # 👇 自动识别 semantic commit
+          MAJOR_STRING_TOKEN: "BREAKING CHANGE"
+          MINOR_STRING_TOKEN: "feat"
+          PATCH_STRING_TOKEN: "fix"
       # 2. 设置 Docker Buildx (用于构建镜像)
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -43,6 +51,7 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+
       # 4. 构建并推送镜像
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
@@ -52,6 +61,9 @@ jobs:
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{  steps.tag_version.outputs.new_tag }}
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{  steps.tag_version.outputs.new_major }}
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{  steps.tag_version.outputs.new_minor }}
+
           cache-from: type=gha
           cache-to: type=gha,mode=max
       - name: Output Release Info
