@@ -1,3 +1,10 @@
 spring:
+  webflux:
+    base-path: /xuyang-api
   application:
     name: xuyang-api
+  profiles:
+    active: local
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
