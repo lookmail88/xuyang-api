@@ -1,16 +1,12 @@
-# 第一阶段：编译 (build)
 FROM docker.io/library/node:20-alpine as build
 LABEL authors="xgao"
 
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
+VOLUME /tmp
 
-# 第二阶段：运行 (runtime) - 补上这一段 🚀
-FROM docker.io/library/nginx:stable-alpine
-# 将第一阶段生成的 dist 文件夹拷贝到 nginx 的默认静态目录
-COPY --from=build /app/dist /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+ARG JAR_FILE
+COPY target/${JAR_FILE} /app/app.jar
+ENTRYPOINT java -Duser.timezone="America/Los_Angeles" $JVM_OPTS -jar /app/app.jar
+RUN chown -R 70501 /app/ && chmod -R 777 /app/
+RUN chown -R 70501 /tmp/ && chmod -R 777 /tmp/
+
+USER 70501
