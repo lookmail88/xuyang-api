@@ -44,7 +44,7 @@ jobs:
         id: project_version
         run: | 
           git pull origin development
-          VERSION=v$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
+          VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
           echo "APP_VERSION=$VERSION" >> $GITHUB_OUTPUT
           echo "当前项目版本号为: $VERSION"
       # 3. 使用新版本构建 Jar 包
@@ -69,7 +69,7 @@ jobs:
           push: true
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.project_version_outputs.APP_VERSION  }}
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:v${{ steps.project_version_outputs.APP_VERSION  }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
