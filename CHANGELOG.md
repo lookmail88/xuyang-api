@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/lookmail88/xuyang-api/compare/v1.0.12...v1.0.13) (2026-03-28)
+
+
+### Bug Fixes
+
+* consolidate name in middleware.yaml ([3924180](https://github.com/lookmail88/xuyang-api/commit/39241803d05f7c93005dd8815a3bf1da8bf81270))
+
 ## [1.0.12](https://github.com/lookmail88/xuyang-api/compare/v1.0.11...v1.0.12) (2026-03-28)
 
 
