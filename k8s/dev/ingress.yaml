@@ -5,7 +5,7 @@ metadata:
   namespace: xgao-dev
   annotations:
     kubernetes.io/ingress.class: traefik
-    traefik.ingress.kubernetes.io/router.middlewares: xgao-dev-stripprefix@kubernetescrd
+    traefik.ingress.kubernetes.io/router.middlewares: xuyang-api-stripprefix@kubernetescrd
 spec:
   rules:
     - host: dev.xuyang.dev
