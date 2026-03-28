@@ -10,10 +10,10 @@ spec:
     - host: dev.xuyang.dev
       http:
         paths:
-          - path: /
+          - path: /xuyang-api/?(.*)
             pathType: Prefix
             backend:
               service:
-                name: xuyang-api-service
+                name: xuyang-api
                 port:
-                  number: 80
+                  number: 8080
