@@ -1,9 +1,0 @@
-apiVersion: traefik.io/v1alpha1
-kind: Middleware
-metadata:
-  name: xuyang-api-stripprefix
-  namespace: xgao-dev
-spec:
-  stripPrefix:
-    prefixes:
-      - /xuyang-api

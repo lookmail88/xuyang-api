@@ -11,4 +11,6 @@ springdoc:
     url: '/xuyang-api/v3/api-docs'
     path: '/swagger-ui'
     config-url: '/xuyang-api/v3/api-docs/swagger-config'
-
+server:
+  servlet:
+    context-path: /xuyang-api
