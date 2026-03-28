@@ -1,3 +1,10 @@
+## [1.0.19](https://github.com/lookmail88/xuyang-api/compare/v1.0.18...v1.0.19) (2026-03-28)
+
+
+### Bug Fixes
+
+* update context path setting ([a847e23](https://github.com/lookmail88/xuyang-api/commit/a847e2322f90b44724e557af861080af068ad553))
+
 ## [1.0.18](https://github.com/lookmail88/xuyang-api/compare/v1.0.17...v1.0.18) (2026-03-28)
 
 
