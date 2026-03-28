@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/lookmail88/xuyang-api/compare/v1.0.21...v1.0.22) (2026-03-28)
+
+
+### Bug Fixes
+
+* solve swagger cross orgin issue in deployment.yaml ([43bcd47](https://github.com/lookmail88/xuyang-api/commit/43bcd47ea69d96256d1e2a2f88a81b14e0ae28c8))
+
 ## [1.0.21](https://github.com/lookmail88/xuyang-api/compare/v1.0.20...v1.0.21) (2026-03-28)
 
 
