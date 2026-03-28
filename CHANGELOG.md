@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/lookmail88/xuyang-api/compare/v1.0.4...v1.0.5) (2026-03-28)
+
+
+### Bug Fixes
+
+* fix deploy.yaml ([9a0fc04](https://github.com/lookmail88/xuyang-api/commit/9a0fc0460b37ec2b6c0a5529ec1e98e9e2391cf7))
+
 ## [1.0.4](https://github.com/lookmail88/xuyang-api/compare/v1.0.3...v1.0.4) (2026-03-28)
 
 
