@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/lookmail88/xuyang-api/compare/v1.0.8...v1.0.9) (2026-03-28)
+
+
+### Bug Fixes
+
+* fix ingress config ([77f69ca](https://github.com/lookmail88/xuyang-api/commit/77f69ca1aa04564c02e7087fee91a64a44afd574))
+
 ## [1.0.8](https://github.com/lookmail88/xuyang-api/compare/v1.0.7...v1.0.8) (2026-03-28)
 
 
