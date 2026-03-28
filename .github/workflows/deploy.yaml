@@ -73,8 +73,9 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
       - name: Update K8s YAML
-        run:
-          sed -i "s/xuyang-api:v.*/xuyang-api:v${{ steps.project_version.outputs.APP_VERSION }}/g" ./k8s/dev/deployment.yaml
+        run: |
+          VERSION="${{ steps.project_version.outputs.APP_VERSION }}"
+          sed -i "s|image: ghcr.io/lookmail88/xuyang-api:v.*|image: ghcr.io/lookmail88/xuyang-api:v${VERSION}|g" ./k8s/dev/deployment.yaml
 
       - name: Output Release Info
         run: |

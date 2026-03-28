@@ -9,7 +9,9 @@
       "prepareCmd": "mvn versions:set -DnewVersion='${nextRelease.version}' -DgenerateBackupPoms=false"
     }],
     ["@semantic-release/git", {
-      "assets": ["**/pom.xml", "CHANGELOG.md"],
+      "assets": ["**/pom.xml",
+                 "CHANGELOG.md",
+                 "k8s/dev/deployment.yaml"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     "@semantic-release/github"
