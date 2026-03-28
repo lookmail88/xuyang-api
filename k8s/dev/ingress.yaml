@@ -8,7 +8,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.middlewares: xgao-dev-xuyang-api-stripprefix@kubernetescrd
 spec:
   rules:
-    - host: dev.xuyang.dev
+    - host: dev-api.xuyang.dev
       http:
         paths:
           - path: /xuyang-api
