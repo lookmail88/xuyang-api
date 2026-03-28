@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/lookmail88/xuyang-api/compare/v1.0.19...v1.0.20) (2026-03-28)
+
+
+### Bug Fixes
+
+* update controller, allow CrossOrigin ([e59be62](https://github.com/lookmail88/xuyang-api/commit/e59be62c80588ce56fb7070f3538cd670af592bb))
+
 ## [1.0.19](https://github.com/lookmail88/xuyang-api/compare/v1.0.18...v1.0.19) (2026-03-28)
 
 
