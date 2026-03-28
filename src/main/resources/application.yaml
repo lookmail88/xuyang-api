@@ -1,6 +1,4 @@
 spring:
-  webflux:
-    base-path: /xuyang-api
   application:
     name: xuyang-api
   profiles:
