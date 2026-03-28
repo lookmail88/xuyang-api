@@ -4,5 +4,11 @@ spring:
   profiles:
     active: local
 springdoc:
+  api-docs:
+    enabled: true
+    path: '/v3/api-docs'
   swagger-ui:
-    path: /swagger-ui.html
+    url: '/xuyang-api/v3/api-docs'
+    path: '/swagger-ui'
+    config-url: '/xuyang-api/v3/api-docs/swagger-config'
+
