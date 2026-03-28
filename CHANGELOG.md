@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/lookmail88/xuyang-api/compare/v1.0.1...v1.0.2) (2026-03-28)
+
+
+### Bug Fixes
+
+* fix typo ([8bbeab8](https://github.com/lookmail88/xuyang-api/commit/8bbeab835dac1c429991858d8c96444c86f04044))
+
 ## [1.0.1](https://github.com/lookmail88/xuyang-api/compare/v1.0.0...v1.0.1) (2026-03-27)
 
 
