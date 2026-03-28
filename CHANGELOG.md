@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/lookmail88/xuyang-api/compare/v1.0.16...v1.0.17) (2026-03-28)
+
+
+### Bug Fixes
+
+* fix resource in middleware.yaml ([bcf4068](https://github.com/lookmail88/xuyang-api/commit/bcf40686e95f0d7c6ab304e75fe56198eec5bebd))
+
 ## [1.0.16](https://github.com/lookmail88/xuyang-api/compare/v1.0.15...v1.0.16) (2026-03-28)
 
 
