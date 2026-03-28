@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/lookmail88/xuyang-api/compare/v1.0.17...v1.0.18) (2026-03-28)
+
+
+### Bug Fixes
+
+* update swagger config ([57de790](https://github.com/lookmail88/xuyang-api/commit/57de790e6d5038d03a04222b22b88f2fa01f71a8))
+
 ## [1.0.17](https://github.com/lookmail88/xuyang-api/compare/v1.0.16...v1.0.17) (2026-03-28)
 
 
