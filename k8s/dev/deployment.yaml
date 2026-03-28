@@ -21,3 +21,16 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 80
+          # --- 添加以下环境变量配置 ---
+          env:
+            # 1. 强制 Swagger 页面使用 HTTPS 和正确的路径前缀
+            - name: SPRINGDOC_SERVERS_0_URL
+              value: "https://api-dev.xuyang.dev/xuyang-api"
+            - name: SPRINGDOC_SERVERS_0_DESCRIPTION
+              value: "Production Gateway"
+            # 2. 确保后端 context-path 与你代码一致
+            - name: SERVER_SERVLET_CONTEXT_PATH
+              value: "/xuyang-api"
+            # 3. 开启转发头部识别（双重保险）
+            - name: SERVER_FORWARD_HEADERS_STRATEGY
+              value: "framework"
