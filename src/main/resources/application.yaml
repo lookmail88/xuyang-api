@@ -4,9 +4,6 @@ spring:
   profiles:
     active: local
 springdoc:
-  servers:
-    - url: https://api-dev.xuyang.dev/xuyang-api
-      description: "Prod Gateway"
   api-docs:
     enabled: true
     path: '/v3/api-docs'
@@ -14,6 +11,9 @@ springdoc:
     url: '/xuyang-api/v3/api-docs'
     path: '/swagger-ui'
     config-url: '/xuyang-api/v3/api-docs/swagger-config'
+argo:
+  api:
+    token: ${ARGO_API_TOKEN:}
 server:
   servlet:
     context-path: /xuyang-api
