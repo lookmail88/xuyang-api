@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
 @RestController
@@ -18,8 +20,10 @@ public class WebController {
     }
     private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd HH:mm:ss_SSS");
 
+
     @GetMapping(value="/health")
     public ResponseEntity<String> getHealth(){
+        ZonedDateTime nowLA = ZonedDateTime.now(ZoneId.of("America/Los_Angeles"));
         LocalDateTime now = LocalDateTime.now();
         return ResponseEntity.ok( now.format(formatter));
     }
