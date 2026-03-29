@@ -4,6 +4,9 @@ spring:
   profiles:
     active: local
 springdoc:
+  servers:
+    - url: https://api-dev.xuyang.dev/xuyang-api
+      description: "Prod Gateway"
   api-docs:
     enabled: true
     path: '/v3/api-docs'
