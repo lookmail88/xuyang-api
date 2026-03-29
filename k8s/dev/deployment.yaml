@@ -24,7 +24,7 @@ spec:
           # --- 添加以下环境变量配置 ---
           env:
             # 1. 强制 Swagger 页面使用 HTTPS 和正确的路径前缀
-            - name: SPRINGDOC_SERVERS_0_URL
+            - name: SPRINGDOC_SERVERS[0]_URL
               value: "https://api-dev.xuyang.dev/xuyang-api"
             - name: SPRINGDOC_SERVERS_0_DESCRIPTION
               value: "Production Gateway"
