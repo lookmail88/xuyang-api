@@ -1,3 +1,10 @@
+## [1.0.27](https://github.com/lookmail88/xuyang-api/compare/v1.0.26...v1.0.27) (2026-03-29)
+
+
+### Bug Fixes
+
+* add timezone set ([e55270a](https://github.com/lookmail88/xuyang-api/commit/e55270a8f074f3f12abee1ebe0c79e003bde4aee))
+
 ## [1.0.26](https://github.com/lookmail88/xuyang-api/compare/v1.0.25...v1.0.26) (2026-03-29)
 
 
