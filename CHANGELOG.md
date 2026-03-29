@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/lookmail88/xuyang-api/compare/v1.0.24...v1.0.25) (2026-03-29)
+
+
+### Bug Fixes
+
+* add java code for swagger UI config ([60c10f4](https://github.com/lookmail88/xuyang-api/commit/60c10f4afd66adc4a4992acd14059239bde3751a))
+
 ## [1.0.24](https://github.com/lookmail88/xuyang-api/compare/v1.0.23...v1.0.24) (2026-03-29)
 
 
