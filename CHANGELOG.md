@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/lookmail88/xuyang-api/compare/v1.0.25...v1.0.26) (2026-03-29)
+
+
+### Bug Fixes
+
+* add timestamp for UI to check back-end status ([254d4dd](https://github.com/lookmail88/xuyang-api/commit/254d4dd273d27c708273ba551ccddb33a2d56270))
+
 ## [1.0.25](https://github.com/lookmail88/xuyang-api/compare/v1.0.24...v1.0.25) (2026-03-29)
 
 
