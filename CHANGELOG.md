@@ -5,6 +5,23 @@
 
 * add local server to Swagger and schema annotations for ArgoAppStatus ([366d279](https://github.com/lookmail88/xuyang-api/commit/366d279b108b9f72c5b2ce28dc79ac1cbb18eaa2))
 * add timezone set ([12d846d](https://github.com/lookmail88/xuyang-api/commit/12d846d42a5a32cdb72e23ffcd67273af0358acb))
+* update controller ([0691044](https://github.com/lookmail88/xuyang-api/commit/0691044cbd441e0ccfa40b9e4f1431c2e3fcadf7))
+* update controller ([40312e0](https://github.com/lookmail88/xuyang-api/commit/40312e008465c4ec289e9768ddacc8bf9e1c3511))
+* update controller ([218678a](https://github.com/lookmail88/xuyang-api/commit/218678a2227f2d75427ff79c0a28d7011bab9836))
+
+
+### Features
+
+* add Argo CD app status endpoint ([612fbd6](https://github.com/lookmail88/xuyang-api/commit/612fbd6801587aa5cc34b5f19009be99dd9e77e2))
+* **config:** externalize Argo and OpenAPI config to properties files ([5040cf3](https://github.com/lookmail88/xuyang-api/commit/5040cf3e14b67cd799e9c3c10397bf6908423a92))
+
+# [1.1.0](https://github.com/lookmail88/xuyang-api/compare/v1.0.27...v1.1.0) (2026-03-30)
+
+
+### Bug Fixes
+
+* add local server to Swagger and schema annotations for ArgoAppStatus ([366d279](https://github.com/lookmail88/xuyang-api/commit/366d279b108b9f72c5b2ce28dc79ac1cbb18eaa2))
+* add timezone set ([12d846d](https://github.com/lookmail88/xuyang-api/commit/12d846d42a5a32cdb72e23ffcd67273af0358acb))
 * update controller ([40312e0](https://github.com/lookmail88/xuyang-api/commit/40312e008465c4ec289e9768ddacc8bf9e1c3511))
 * update controller ([218678a](https://github.com/lookmail88/xuyang-api/commit/218678a2227f2d75427ff79c0a28d7011bab9836))
 
