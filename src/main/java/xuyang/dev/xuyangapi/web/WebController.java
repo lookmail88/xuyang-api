@@ -33,8 +33,7 @@ public class WebController {
     @GetMapping(value="/health")
     public ResponseEntity<String> getHealth(){
         ZonedDateTime nowLA = ZonedDateTime.now(ZoneId.of("America/Los_Angeles"));
-        LocalDateTime now = LocalDateTime.now();
-        return ResponseEntity.ok( now.format(formatter));
+        return ResponseEntity.ok( nowLA.format(formatter));
     }
 
     @GetMapping(value="/argo/apps")
