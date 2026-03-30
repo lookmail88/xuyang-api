@@ -25,7 +25,7 @@ public class WebController {
 
     @GetMapping(value="/sayhello")
     public ResponseEntity<String> sayHello(){
-        return ResponseEntity.ok("Hello,This is for start");
+        return ResponseEntity.ok("Hello,This is for start2");
     }
     private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd HH:mm:ss_SSS");
 
