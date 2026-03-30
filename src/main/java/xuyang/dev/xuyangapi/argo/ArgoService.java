@@ -51,10 +51,11 @@ public class ArgoService {
             List<ArgoAppStatus> result = new ArrayList<>();
             for (JsonNode item : items) {
                 String name = item.path("metadata").path("name").asText();
+                String namespace = item.path("metadata").path("namespace").asText();
                 String syncStatus = item.path("status").path("sync").path("status").asText();
                 String healthStatus = item.path("status").path("health").path("status").asText();
                 String lastSyncTime = item.path("status").path("operationState").path("finishedAt").asText();
-                result.add(new ArgoAppStatus(name, syncStatus, healthStatus, lastSyncTime));
+                result.add(new ArgoAppStatus(name, namespace, syncStatus, healthStatus, lastSyncTime));
             }
             cache.set(Collections.unmodifiableList(result));
         } catch (Exception e) {
