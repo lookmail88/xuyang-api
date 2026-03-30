@@ -22,21 +22,24 @@ public class ArgoService {
 
     private static final Logger log = LoggerFactory.getLogger(ArgoService.class);
 
-    private static final String ARGO_API = "https://argo.xuyang.dev/api/v1/applications";
-
-    @Value("${argo.api.token}")
-    private String apiToken;
-
+    private final String argoApiUrl;
+    private final String argoApiToken;
     private final HttpClient httpClient = HttpClient.newBuilder().build();
     private final ObjectMapper objectMapper = new ObjectMapper();
     private final AtomicReference<List<ArgoAppStatus>> cache = new AtomicReference<>(Collections.emptyList());
+
+    public ArgoService(@Value("${argo.api.url}") String argoApiUrl,
+                       @Value("${argo.api.token}") String argoApiToken) {
+        this.argoApiUrl = argoApiUrl;
+        this.argoApiToken = argoApiToken;
+    }
 
     @Scheduled(fixedRate = 60000, initialDelay = 0)
     public void refresh() {
         try {
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(ARGO_API))
-                    .header("Authorization", "Bearer " + apiToken)
+                    .uri(URI.create(argoApiUrl))
+                    .header("Authorization", "Bearer " + argoApiToken)
                     .GET()
                     .build();
 
