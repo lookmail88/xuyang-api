@@ -14,9 +14,11 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .servers(List.of(
                         new Server()
+                                .url("http://localhost:8080/xuyang-api")
+                                .description("local"),
+                        new Server()
                                 .url("https://api-dev.xuyang.dev/xuyang-api")
                                 .description("production gateway")
-
                 ));
 
     }
