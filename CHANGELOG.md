@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/lookmail88/xuyang-api/compare/v1.1.1...v1.2.0) (2026-03-30)
+
+
+### Features
+
+* add namespace field to ArgoAppStatus ([b857e51](https://github.com/lookmail88/xuyang-api/commit/b857e51c6fd8481335821e86d79b1635af8a3d63))
+
 ## [1.1.1](https://github.com/lookmail88/xuyang-api/compare/v1.1.0...v1.1.1) (2026-03-30)
 
 
