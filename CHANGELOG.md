@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/lookmail88/xuyang-api/compare/v1.1.0...v1.1.1) (2026-03-30)
+
+
+### Bug Fixes
+
+* update controller ([0af1dac](https://github.com/lookmail88/xuyang-api/commit/0af1dac88486024dbb2246512cde74e4bf65186f))
+* update controller to fix version issue ([8506c72](https://github.com/lookmail88/xuyang-api/commit/8506c729f024a26e6d7a45c991762427200db326))
+
 # [1.1.0](https://github.com/lookmail88/xuyang-api/compare/v1.0.27...v1.1.0) (2026-03-30)
 
 
