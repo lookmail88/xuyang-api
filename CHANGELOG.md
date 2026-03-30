@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/lookmail88/xuyang-api/compare/v1.0.27...v1.1.0) (2026-03-30)
+
+
+### Bug Fixes
+
+* add local server to Swagger and schema annotations for ArgoAppStatus ([366d279](https://github.com/lookmail88/xuyang-api/commit/366d279b108b9f72c5b2ce28dc79ac1cbb18eaa2))
+
+
+### Features
+
+* add Argo CD app status endpoint ([612fbd6](https://github.com/lookmail88/xuyang-api/commit/612fbd6801587aa5cc34b5f19009be99dd9e77e2))
+
 ## [1.0.27](https://github.com/lookmail88/xuyang-api/compare/v1.0.26...v1.0.27) (2026-03-29)
 
 
