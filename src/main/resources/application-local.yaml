@@ -1,0 +1,4 @@
+argo:
+  api:
+    url: https://argo.xuyang.dev/api/v1/applications
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJ4dXlhbmctYXBpOmFwaUtleSIsIm5iZiI6MTc3NDgyNDIxMSwiaWF0IjoxNzc0ODI0MjExLCJqdGkiOiI2NmYzZDEzNC1jNDcwLTQwYmItOTVmYi1mZmUyZDVhMmI0MzkifQ.gp-2FeCaPrIcjYZJGAsC1udl20WRyHdTFVbE2hUMZzU

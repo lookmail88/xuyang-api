@@ -2,10 +2,10 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: xuyang-api-ingress
-  namespace: xgao-dev
+  namespace: xgao-prod
 spec:
   rules:
-    - host: api-dev.xuyang.dev
+    - host: api.xuyang.dev
       http:
         paths:
           - path: /xuyang-api
