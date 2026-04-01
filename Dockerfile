@@ -10,7 +10,7 @@ RUN mkdir -p /tmp && \
    chown -R spring:spring /app /tmp
 # 4. 复制文件并确保所有权属于 spring 用户
 ARG JAR_FILE
-COPY --chown=spring:spring target/${JAR_FILE} /app/app.jar
+COPY --chown=spring:spring target/*.jar /app/app.jar
 # 5. 切换到非 root 用户
 USER spring
 # 6. 声明挂载点
