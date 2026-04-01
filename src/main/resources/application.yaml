@@ -18,7 +18,7 @@ openapi:
 argo:
   api:
     token: ${ARGO_API_TOKEN:}
-    url: https://argocd-server.infra.svc.cluster.local/api/v1/applications
+    url: http://argocd-server.infra.svc.cluster.local/api/v1/applications
 server:
   servlet:
     context-path: /xuyang-api
