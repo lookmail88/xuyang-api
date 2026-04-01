@@ -1,3 +1,10 @@
+## [1.2.13](https://github.com/lookmail88/xuyang-api/compare/v1.2.12...v1.2.13) (2026-04-01)
+
+
+### Bug Fixes
+
+* add endpoint to have the version ([c28db88](https://github.com/lookmail88/xuyang-api/commit/c28db88f00ea26b13be577368d3ac7731cd03c62))
+
 ## [1.2.12](https://github.com/lookmail88/xuyang-api/compare/v1.2.11...v1.2.12) (2026-04-01)
 
 
