@@ -1,3 +1,17 @@
+## [1.2.8](https://github.com/lookmail88/xuyang-api/compare/v1.2.7...v1.2.8) (2026-04-01)
+
+
+### Bug Fixes
+
+* fix .releaserc.json ([a8ab609](https://github.com/lookmail88/xuyang-api/commit/a8ab60901a8cd1ad4cbcb1de19db7595ba9a7b55))
+
+## [1.2.7](https://github.com/lookmail88/xuyang-api/compare/v1.2.6...v1.2.7) (2026-04-01)
+
+
+### Bug Fixes
+
+* fix .releaserc.json ([677d1b0](https://github.com/lookmail88/xuyang-api/commit/677d1b09dc55175803f973d51c65375ce711cd10))
+
 ## [1.2.6](https://github.com/lookmail88/xuyang-api/compare/v1.2.5...v1.2.6) (2026-04-01)
 
 
