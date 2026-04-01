@@ -1,3 +1,31 @@
+## [1.2.6](https://github.com/lookmail88/xuyang-api/compare/v1.2.5...v1.2.6) (2026-04-01)
+
+
+### Bug Fixes
+
+* fix docker file ([93bbe28](https://github.com/lookmail88/xuyang-api/commit/93bbe28695c16cc21cdcf074b15e79f7525fd8b9))
+
+## [1.2.5](https://github.com/lookmail88/xuyang-api/compare/v1.2.4...v1.2.5) (2026-04-01)
+
+
+### Bug Fixes
+
+* update docker file ([28e0eb5](https://github.com/lookmail88/xuyang-api/commit/28e0eb5a0b86186b2574dd72f46c28d6d5256e41))
+
+## [1.2.4](https://github.com/lookmail88/xuyang-api/compare/v1.2.3...v1.2.4) (2026-04-01)
+
+
+### Bug Fixes
+
+* update docker file ([deb7ddd](https://github.com/lookmail88/xuyang-api/commit/deb7ddd863ca1719542a821f249d72c91c7e88f2))
+
+## [1.2.3](https://github.com/lookmail88/xuyang-api/compare/v1.2.2...v1.2.3) (2026-04-01)
+
+
+### Bug Fixes
+
+* move jar file to /app/app.jar ([e369074](https://github.com/lookmail88/xuyang-api/commit/e3690749cf4c275dfdda12a9b3444316743736c4))
+
 ## [1.2.2](https://github.com/lookmail88/xuyang-api/compare/v1.2.1...v1.2.2) (2026-04-01)
 
 
