@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/lookmail88/xuyang-api/compare/v1.2.10...v1.2.11) (2026-04-01)
+
+
+### Bug Fixes
+
+* add mount in deployment.yaml ([5662a99](https://github.com/lookmail88/xuyang-api/commit/5662a9950948c23f641fe347cc9c5bb5b146fa0c))
+
 ## [1.2.10](https://github.com/lookmail88/xuyang-api/compare/v1.2.9...v1.2.10) (2026-04-01)
 
 
