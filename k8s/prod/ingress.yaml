@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: xuyang-api-ingress
+  namespace: xgao-prod
+spec:
+  rules:
+    - host: api.xuyang.dev
+      http:
+        paths:
+          - path: /xuyang-api
+            pathType: Prefix
+            backend:
+              service:
+                name: xuyang-api
+                port:
+                  number: 8080
