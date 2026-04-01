@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/lookmail88/xuyang-api/compare/v1.2.5...v1.2.6) (2026-04-01)
+
+
+### Bug Fixes
+
+* fix docker file ([93bbe28](https://github.com/lookmail88/xuyang-api/commit/93bbe28695c16cc21cdcf074b15e79f7525fd8b9))
+
 ## [1.2.5](https://github.com/lookmail88/xuyang-api/compare/v1.2.4...v1.2.5) (2026-04-01)
 
 
