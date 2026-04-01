@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/lookmail88/xuyang-api/compare/v1.2.11...v1.2.12) (2026-04-01)
+
+
+### Bug Fixes
+
+* move application.yaml to config subpath ([1f82a8b](https://github.com/lookmail88/xuyang-api/commit/1f82a8bc4b2f9ceb0f07d4c5979a7fb8df5cb3ff))
+
 ## [1.2.11](https://github.com/lookmail88/xuyang-api/compare/v1.2.10...v1.2.11) (2026-04-01)
 
 
