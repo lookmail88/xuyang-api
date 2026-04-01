@@ -1,3 +1,31 @@
+## [1.2.12](https://github.com/lookmail88/xuyang-api/compare/v1.2.11...v1.2.12) (2026-04-01)
+
+
+### Bug Fixes
+
+* move application.yaml to config subpath ([1f82a8b](https://github.com/lookmail88/xuyang-api/commit/1f82a8bc4b2f9ceb0f07d4c5979a7fb8df5cb3ff))
+
+## [1.2.11](https://github.com/lookmail88/xuyang-api/compare/v1.2.10...v1.2.11) (2026-04-01)
+
+
+### Bug Fixes
+
+* add mount in deployment.yaml ([5662a99](https://github.com/lookmail88/xuyang-api/commit/5662a9950948c23f641fe347cc9c5bb5b146fa0c))
+
+## [1.2.10](https://github.com/lookmail88/xuyang-api/compare/v1.2.9...v1.2.10) (2026-04-01)
+
+
+### Bug Fixes
+
+* try to add ConfigMap.yaml ([28344d4](https://github.com/lookmail88/xuyang-api/commit/28344d423d945b641efe59c97d075ab3e9114a8a))
+
+## [1.2.9](https://github.com/lookmail88/xuyang-api/compare/v1.2.8...v1.2.9) (2026-04-01)
+
+
+### Bug Fixes
+
+* read argoCD api ([df6140b](https://github.com/lookmail88/xuyang-api/commit/df6140b9764df4c388732b37fd58ac83604ad9f0))
+
 ## [1.2.8](https://github.com/lookmail88/xuyang-api/compare/v1.2.7...v1.2.8) (2026-04-01)
 
 

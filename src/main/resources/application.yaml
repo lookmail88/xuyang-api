@@ -13,12 +13,11 @@ springdoc:
     config-url: '/xuyang-api/v3/api-docs/swagger-config'
 openapi:
   servers:
-    local: http://localhost:8080/xuyang-api
     prod: https://api-dev.xuyang.dev/xuyang-api
 argo:
   api:
     token: ${ARGO_API_TOKEN:}
-    url: https://argocd-server.infra.svc.cluster.local/api/v1/applications
+    url: http://argocd-server.infra.svc.cluster.local/api/v1/applications
 server:
   servlet:
     context-path: /xuyang-api
