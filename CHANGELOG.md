@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/lookmail88/xuyang-api/compare/v1.2.8...v1.2.9) (2026-04-01)
+
+
+### Bug Fixes
+
+* read argoCD api ([df6140b](https://github.com/lookmail88/xuyang-api/commit/df6140b9764df4c388732b37fd58ac83604ad9f0))
+
 ## [1.2.8](https://github.com/lookmail88/xuyang-api/compare/v1.2.7...v1.2.8) (2026-04-01)
 
 
