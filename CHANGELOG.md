@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/lookmail88/xuyang-api/compare/v1.2.9...v1.2.10) (2026-04-01)
+
+
+### Bug Fixes
+
+* try to add ConfigMap.yaml ([28344d4](https://github.com/lookmail88/xuyang-api/commit/28344d423d945b641efe59c97d075ab3e9114a8a))
+
 ## [1.2.9](https://github.com/lookmail88/xuyang-api/compare/v1.2.8...v1.2.9) (2026-04-01)
 
 
