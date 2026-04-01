@@ -23,7 +23,7 @@ spec:
             - containerPort: 80
           volumeMounts:
             - name: config-volume
-              mountPath: /app/application.yml # 挂载的具体目标路径
+              mountPath: /app/config/application.yml # 挂载的具体目标路径
               subPath: application.yml       # 对应 ConfigMap 里的 Key
           # --- 添加以下环境变量配置 ---
           env:
