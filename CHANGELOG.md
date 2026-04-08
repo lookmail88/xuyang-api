@@ -1,3 +1,10 @@
+## [1.2.14](https://github.com/lookmail88/xuyang-api/compare/v1.2.13...v1.2.14) (2026-04-02)
+
+
+### Bug Fixes
+
+* REMOVE INGRESS ([121de5d](https://github.com/lookmail88/xuyang-api/commit/121de5dc2314157a159737cb18b83b4509cc904e))
+
 ## [1.2.13](https://github.com/lookmail88/xuyang-api/compare/v1.2.12...v1.2.13) (2026-04-01)
 
 
