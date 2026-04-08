@@ -10,17 +10,14 @@ import java.util.List;
 @Configuration
 public class OpenApiConfig {
 
-    @Value("${openapi.servers.local}")
-    private String localUrl;
-
     @Value("${openapi.servers.prod}")
-    private String prodUrl;
+    private String swaggerUrl;
 
     @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .servers(List.of(
-                        new Server().url(localUrl).description("prod")
+                        new Server().url(swaggerUrl).description("prod")
                 ));
     }
 
