@@ -1,3 +1,11 @@
+## [1.2.15](https://github.com/lookmail88/xuyang-api/compare/v1.2.14...v1.2.15) (2026-04-08)
+
+
+### Bug Fixes
+
+* config swagger server url in java config ([1c0d1b1](https://github.com/lookmail88/xuyang-api/commit/1c0d1b19df827e88676019167965f97cdb6ecca5))
+* config swagger server url in java config ([559d595](https://github.com/lookmail88/xuyang-api/commit/559d5958b2666135aa02839429bea560580ec25c))
+
 ## [1.2.14](https://github.com/lookmail88/xuyang-api/compare/v1.2.13...v1.2.14) (2026-04-02)
 
 
